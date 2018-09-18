@@ -8,10 +8,10 @@
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="trail20180917204701136" source="/home/imincik/Projects/dev/great-trail.sk/db/great-trail.gpkg|layername=trail" name="Great Trail">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Freemap_sk_Hiking20180917204915667" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://t1.freemap.sk/T/%7Bz%7D/%7Bx%7D/%7By%7D.jpeg&amp;zmax=16&amp;zmin=8" name="Freemap.sk Hiking">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Freemap_sk_Hiking20180917204915667" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://t1.freemap.sk/T/%7Bz%7D/%7Bx%7D/%7By%7D.jpeg&amp;zmax=16&amp;zmin=8" name="Freemap.sk Hiking">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Freemap_sk_Cyclo20180917212929197" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://t1.freemap.sk/C/%7Bz%7D/%7Bx%7D/%7By%7D.jpeg&amp;zmax=16&amp;zmin=8" name="Freemap.sk Cyclo">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Freemap_sk_Cyclo20180917212929197" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://t1.freemap.sk/C/%7Bz%7D/%7Bx%7D/%7By%7D.jpeg&amp;zmax=16&amp;zmin=8" name="Freemap.sk Cyclo">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>2303104.03975876467302442</xmin>
-      <ymin>6249292.6771865664049983</ymin>
-      <xmax>2350360.83339508669450879</xmax>
-      <ymax>6286675.8007217226549983</ymax>
+      <xmin>2328515.99681771825999022</xmin>
+      <ymin>6286173.8303874684497714</ymin>
+      <xmax>2328646.38152230810374022</xmax>
+      <ymax>6287772.80316960345953703</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -41,11 +41,17 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="export_tracks20180917210006344"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="export_tracks20180918114452465"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="great_trail_tracks20180918113550015"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="export_tracks20180918114852911"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="export_tracks20180917210414124"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="trail20180917204701136"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Freemap_sk_Cyclo20180917212929197"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Freemap_sk_Hiking20180917204915667"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="export_tracks20180918113746690"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="export_tracks20180917213321476"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="great_trail_backup20180918120410198"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="great_trail_backup20180918120456819"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -61,14 +67,14 @@
         <legendlayerfile isInOverview="0" layerid="trail20180917204701136" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Freemap.sk Hiking" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Freemap.sk Hiking" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Freemap_sk_Hiking20180917204915667" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Freemap_sk_Hiking20180917204915667" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Freemap.sk Cyclo" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Freemap.sk Cyclo" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Freemap_sk_Cyclo20180917212929197" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Freemap_sk_Cyclo20180917212929197" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -166,6 +172,12 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>20.37610000000000099</xmin>
+        <ymin>48.85359400000000107</ymin>
+        <xmax>21.18469999999999942</xmax>
+        <ymax>49.23584799999999717</ymax>
+      </extent>
       <id>trail20180917204701136</id>
       <datasource>./db/great-trail.gpkg|layername=trail</datasource>
       <keywordList>
@@ -208,43 +220,9 @@
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="255,132,54,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="2"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,132,54,0"/>
-              <prop k="line_style" v="solid"/>
               <prop k="line_width" v="2.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-            </layer>
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,132,54,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="-2"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
@@ -497,7 +475,7 @@ def my_form_open(dialog, layer, feature):
       <defaults>
         <default field="fid" expression=""/>
       </defaults>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "fid", '&lt;NULL>' )</previewExpression>
     </maplayer>
   </projectlayers>
   <properties>
@@ -559,14 +537,16 @@ def my_form_open(dialog, layer, feature):
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
+      <IntersectionSnapping type="bool">true</IntersectionSnapping>
       <LayerSnappingToleranceUnitList type="QStringList">
         <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
-      <DefaultSnapType type="QString">off</DefaultSnapType>
-      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <DefaultSnapType type="QString">to vertex</DefaultSnapType>
+      <DefaultSnapTolerance type="double">1</DefaultSnapTolerance>
+      <TopologicalEditing type="bool">true</TopologicalEditing>
       <LayerSnappingToleranceList type="QStringList">
         <value>0.000000</value>
       </LayerSnappingToleranceList>
